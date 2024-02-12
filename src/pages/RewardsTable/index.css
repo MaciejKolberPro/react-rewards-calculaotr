@@ -1,0 +1,27 @@
+.rewardsContainer {
+    padding: 2.5rem 0rem 2.5rem 0rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100rem;
+}
+
+td {
+    border: 0.0625rem solid #eeeeee;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+th {
+    border: 0.0625rem solid #dddddd;
+    border-bottom: 0.125rem solid #cccccc;
+    text-align: center;
+    font-size: 1.125rem;
+    padding: 0.625rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
